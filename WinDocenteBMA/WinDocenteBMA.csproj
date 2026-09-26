@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntiedadesBM\CapaEntiedadesBM.csproj" />
+    <ProjectReference Include="..\CapaLogicaNegocioBM\CapaLogicaNegocioBM.csproj" />
+    <Content Include="appsettings.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\buscar.png" Link="Resources\buscar.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\BusRapida.png" Link="Resources\BusRapida.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\anulaciondocr.PNG" Link="Resources\anulaciondocr.PNG" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\procesosr.png" Link="Resources\procesosr.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\aplicarservidorr.PNG" Link="Resources\aplicarservidorr.PNG" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

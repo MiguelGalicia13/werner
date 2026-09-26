@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntiedadesBM", "CapaEntiedadesBM\CapaEntiedadesBM.csproj", "{A8F3435D-AF5F-4E2C-895F-20F996974001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaLogicaNegocioBM", "CapaLogicaNegocioBM\CapaLogicaNegocioBM.csproj", "{73CE04BF-762B-4E9F-BA39-4622809D8AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDocenteBMA", "WinDocenteBMA\WinDocenteBMA.csproj", "{15809106-CAFC-4874-81A4-5A0DD81AA4B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8F3435D-AF5F-4E2C-895F-20F996974001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F3435D-AF5F-4E2C-895F-20F996974001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F3435D-AF5F-4E2C-895F-20F996974001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F3435D-AF5F-4E2C-895F-20F996974001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CE04BF-762B-4E9F-BA39-4622809D8AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CE04BF-762B-4E9F-BA39-4622809D8AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CE04BF-762B-4E9F-BA39-4622809D8AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CE04BF-762B-4E9F-BA39-4622809D8AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15809106-CAFC-4874-81A4-5A0DD81AA4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15809106-CAFC-4874-81A4-5A0DD81AA4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15809106-CAFC-4874-81A4-5A0DD81AA4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15809106-CAFC-4874-81A4-5A0DD81AA4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
